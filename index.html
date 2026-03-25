@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/inicio.css">
+    <title>Altiva</title>
+</head>
+
+<body>
+    <!-- ---- MENU ---- -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="menu">
+            <a class="navbar-brand logoM" href="index.html"><img class="imgLogoM" src="img/logo_B.png" alt="">ALTIVA</a>
+            <div class="menuPC">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menuCont">
+                <p>999 99 99 99</p>
+                <a class="botonContactMenu" href="contactanos.html">Contactanos</a>
+            </div>
+            <div class="botonMenuPeke">
+                <p>999 99 99 99</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasNavbarLabel">ALTIVA</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ---- PORTADA ---- -->
+    <header>
+        <div class="recuadro">
+            <div>
+                <h1>ALTIVA</h1>
+                <P>Seguridad, rapidez y servicio profesional en cada trabajo.</P>
+                <a class="portadaContact" href="#sectionContact">Contactanos</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ---- SERVEIS ---- -->
+    <section class="sectionServicio">
+        <div class="servicioText">
+            <h2>Servicios</h2>
+            <hr>
+            <p>Te ofrecemos la mejor atencion al cliente y servicio.<br>Nos adaptamos a tu comodidad.</p>
+        </div>
+        <div class="servicios">
+            <div class="servicio">
+                <img src="img/iconoMudanza.png" alt="">
+                <p>Mudanzas</p>
+            </div>
+            <div class="servicio">
+                <img src="img/herramientas.png" alt="">
+                <p>Obras y Reformas</p>
+            </div>
+            <div class="servicio">
+                <img src="img/iconoSeguro.png" alt="">
+                <p>Seguridad</p>
+            </div>
+            <div class="servicio" >
+                <img src="img/flexibilidad.png" alt="">
+                <p>Flexibilidad</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---- NOSALTRES BREU ---- -->
+    <section class="sectionNosotros">
+        <img src="img/ns.jpg" alt="">
+        <div class="textNosotros">
+            <h2>¿Porque Altiva?</h2>
+            <hr>
+            <p>En Altiva ofrecemos soluciones profesionales con plataformas elevadoras para mudanzas, obras y reformas. Trabajamos con equipos modernos y personal cualificado para garantizar seguridad, eficacia y puntualidad en cada servicio.</p>
+            <p>Nos adaptamos a cada proyecto, asegurando un trabajo rápido, limpio y sin complicaciones.</p>
+            <a class="nosotrosButton" href="nosotros.html">Conocenos</a>
+        </div>
+    </section>
+
+    <!-- ---- CONTACTENOS ---- -->
+    <section class="sectionContact" id="sectionContact">
+        <div class="convencer">
+            <h2>Tu elección más óptima y económica</h2>
+            <hr>
+            <ul>
+                <li>Experiencia y profesionalidad en cada servicio</li>
+                <li>Equipos modernos y revisados periódicamente</li>
+                <li>Puntualidad y compromiso con los plazos</li>
+                <li>Presupuestos claros y sin sorpresas</li>
+                <li>Personal cualificado y trato cercano</li>
+            </ul>
+            <p>Contactanos y te ayudaremos en tus necesidades</p>
+        </div>
+        <div class="formulario">
+            <h3>Contactanos</h3>
+            <form id="formulario">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="tel" name="tel" id="tel" placeholder="Telefono" required>
+                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+                <button type="submit" id="prova">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ---- FOOTER ---- -->
+    <footer>
+        <div class="div1">
+            <div class="footerTitulo">
+                <img class="imgLogoF" src="img/logo_B.png" alt="">
+                <h2>ALTIVA</h2>
+            </div>
+            <p>Plataformas elevadoras</p>
+            <p>Servicio profesional y seguro.</p>
+        </div>
+        <div class="div2">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="div3">
+            <p>999 99 99 99</p>
+            <p>email@email.cat</p>
+            <p>Sabadell, Barcelona</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
