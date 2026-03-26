@@ -24,7 +24,14 @@ if (formulario) {
             })
         });
     
-        const texto = await res.text();
+        let texto = await res.text();
         console.log(texto);
+
+        if (res.ok) {
+            alert("Mensaje enviado correctamente");
+            formulario.reset();
+        } else {
+            alert("Error al enviar el mensaje");
+        }
     });
 }
