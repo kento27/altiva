@@ -11,7 +11,7 @@ if (formulario) {
         
         console.log(nombre, email, telefono, mensaje);
         
-        const res = await fetch("http://localhost:4000/enviar", {
+        const res = await fetch("https://altiva.onrender.com/enviar", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
