@@ -8,17 +8,17 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Configurar SendGrid
+// SendGrid
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-// Ruta del formulario
+// Ruta formulario
 app.post("/enviar", async (req, res) => {
 
   const datos = req.body;
 
   const email = {
-    to: process.env.EMAIL, // donde recibes
-    from: process.env.EMAIL, // debe estar verificado en SendGrid
+    to: process.env.EMAIL, 
+    from: process.env.EMAIL,
     subject: `Nuevo mensaje de ${datos.nombre}`,
     text: `
           Nombre: ${datos.nombre}
@@ -32,7 +32,7 @@ app.post("/enviar", async (req, res) => {
 
   try {
     await sgMail.send(email);
-    res.send("Correo enviado");
+    res.send("Correo enviado correctamente");
   } 
   catch (error) {
     console.error("ERROR COMPLETO:", error);
@@ -43,7 +43,7 @@ app.post("/enviar", async (req, res) => {
   }
 });
 
-// Puerto para Render
+// Puerto Render o en servidor local
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
