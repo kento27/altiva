@@ -170,21 +170,33 @@ header h1{
 
 /* ----- CONTENT ----- */
 .QEA{
-    padding: 100px 0px;
+    padding: 100px 25px;
     display: flex;
     justify-content: center;
 }
 
 .textoQEA{
+    max-width: 800px;
+    width: 100%;
     line-height: 1.6;
 }
 
 .textoQEA hr{
-    background-color: #F2C200;
-    opacity: 1;
+    width: 100%;
+    max-width: 500px;
     height: 5px;
-    width: 500px;
+    background-color: #F2C200;
     border: none;
+    opacity: 1;
+}
+
+@media (max-width: 767px){
+    .QEA{
+        padding: 100px 25px;
+    }
+    .textoQEA hr{
+        max-width: 100%;
+    }
 }
 
 /* ----- FOOTER ----- */
@@ -251,12 +263,22 @@ footer h2{
 }
 
 @media (max-width: 767px){
-    .footer{
-        justify-content: space-between;
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding: 50px 25px;
+    }
+
+    .div1{
+        margin-bottom: 25px;
     }
 
     .div2{
         display: none;
+    }
+
+    .div3{
+        text-align: left;
     }
 }

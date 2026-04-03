@@ -4,6 +4,10 @@ html, body{
     background-color: #F7F7F7;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'akira';
     src: url('../Fuentes/Akira/titulo.otf');
@@ -199,6 +203,7 @@ header::before{
     }
     .recuadro{
         width: 100%;
+        padding: 0px 20px;
     }
 }
 
@@ -227,8 +232,12 @@ header::before{
 }
 
 .servicios{
-    display: flex;
+    /* display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 50px; */
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
@@ -281,6 +290,10 @@ header::before{
         gap: 20px;
     }
 
+    .sectionServicio hr{
+        max-width: 100%;
+    }
+
     .servicio{
         width: 100%;
     }
@@ -327,14 +340,39 @@ header::before{
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+@media (max-width: 1023px){
+
+    .sectionNosotros{
+        height: auto;
+        gap: 40px;
+        padding: 0px 25px 0px 0px;
+        align-items: center;
+    }
+
+    .sectionNosotros img{
+        width: 40%;
+        object-fit: cover;
+    }
+
+    .textNosotros{
+        margin: 0;
+        width: 60%;
+    }
+}
+
 @media (max-width: 767px){
+    .sectionNosotros{
+        height: auto;
+        padding: 0px;
+    }
+    
     .sectionNosotros img{
         display: none;
     }
 
     .textNosotros{
-        margin-left: 25px;
-        margin-right: 25px;
+        margin: 50px 25px;
+        width: 100%;
     }
 }
 
@@ -426,6 +464,11 @@ header::before{
         gap: 100px;
         flex-direction: column;
     }
+
+    .formulario{
+        width: 100%;
+        max-width: 400px;
+    }
 }
 
 /* ----- FOOTER ----- */
@@ -492,12 +535,22 @@ footer h2{
 }
 
 @media (max-width: 767px){
-    .footer{
-        justify-content: space-between;
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding: 50px 25px;
+    }
+
+    .div1{
+        margin-bottom: 25px;
     }
 
     .div2{
         display: none;
+    }
+
+    .div3{
+        text-align: left;
     }
 }
