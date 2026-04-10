@@ -308,6 +308,12 @@ header::before{
     color: #FFFFFF;
 }
 
+.sectionNosotros img{
+    height: auto;
+    width: 30%;
+    object-fit: cover;
+}
+
 .textNosotros{
     display: flex;
     justify-content: center;
@@ -498,7 +504,8 @@ footer h2{
 }
 
 .imgLogoF{
-    width: 150px;
+    width: 100px;
+    margin-bottom: 25px;
 }
 
 .div2{
