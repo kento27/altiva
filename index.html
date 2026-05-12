@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -14,20 +14,32 @@
     <!-- ---- MENU ---- -->
     <nav class="navbar bg-body-tertiary">
         <div class="menu">
-            <a class="navbar-brand logoM" href="index.html"><img class="imgLogoM" src="img/logoConFondo.png" alt=""></a>
+            <div class="logoIdiomas">
+                <a class="navbar-brand logoM" href="index.html">
+                    <img class="imgLogoM" src="img/logoConFondo.png" alt="">
+                </a>
+                <div class="idiomas">
+                    <img src="img/esp.png" alt="Español" onclick="cambioIdioma('es')">
+                    <img src="img/cat.jpg" alt="Català" onclick="cambioIdioma('ca')">
+                    <img src="img/en.jpg" alt="English" onclick="cambioIdioma('en')">
+                </div>
+            </div>
             <div class="menuPC">
                 <ul>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html" data-translate="inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                        <a class="nav-link" href="promociones.html" data-translate="promociones">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html" data-translate="nosotros">Sobre nosotros</a>
                     </li>
                 </ul>
             </div>
             <div class="menuCont">
                 <p>674 90 49 34</p>
-                <a class="botonContactMenu" href="contactanos.html">Contactanos</a>
+                <a class="botonContactMenu" href="contactanos.html" data-translate="contactanos">Contactanos</a>
             </div>
             <div class="botonMenuPeke">
                 <p>674 90 49 34</p>
@@ -45,13 +57,13 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="index.html" data-translate="inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                            <a class="nav-link" href="nosotros.html" data-translate="nosotros">Sobre nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactanos.html">Contacto</a>
+                            <a class="nav-link" href="contactanos.html" data-translate="contactanos">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -64,8 +76,8 @@
         <div class="recuadro">
             <div>
                 <h1>ALTIVA</h1>
-                <P>Seguridad, rapidez y servicio profesional en cada trabajo.</P>
-                <a class="portadaContact" href="#sectionContact">Contactanos</a>
+                <p data-translate="pPortada">Seguridad, rapidez y servicio profesional en cada trabajo.</p>
+                <a class="portadaContact" href="#sectionContact" data-translate="btnPortadaContactanos">Contactanos</a>
             </div>
         </div>
     </header>
@@ -73,26 +85,26 @@
     <!-- ---- SERVEIS ---- -->
     <section class="sectionServicio">
         <div class="servicioText">
-            <h2>Servicios</h2>
+            <h2 data-translate="h2Servicios">Servicios</h2>
             <hr>
-            <p>Te ofrecemos la mejor atencion al cliente y servicio.<br>Nos adaptamos a tu comodidad.</p>
+            <p data-translate="pServicios">Te ofrecemos la mejor atencion al cliente y servicio.<br>Nos adaptamos a tu comodidad.</p>
         </div>
         <div class="servicios">
             <div class="servicio">
                 <img src="img/iconoMudanza.png" alt="">
-                <p>Mudanzas</p>
+                <p data-translate="pMudanzas">Mudanzas</p>
             </div>
             <div class="servicio">
                 <img src="img/herramientas.png" alt="">
-                <p>Obras y Reformas</p>
+                <p data-translate="pObras">Obras y Reformas</p>
             </div>
             <div class="servicio">
                 <img src="img/iconoSeguro.png" alt="">
-                <p>Seguridad</p>
+                <p data-translate="pSeguridad">Seguridad</p>
             </div>
             <div class="servicio" >
                 <img src="img/flexibilidad.png" alt="">
-                <p>Flexibilidad</p>
+                <p data-translate="pFlexibilidad">Flexibilidad</p>
             </div>
         </div>
     </section>
@@ -101,36 +113,36 @@
     <section class="sectionNosotros">
         <img src="img/plataformaAccion.jpeg" alt="">
         <div class="textNosotros">
-            <h2>¿Porque Altiva?</h2>
+            <h2 data-translate="h2Nosotros">¿Porque Altiva?</h2>
             <hr>
-            <p>En Altiva ofrecemos soluciones profesionales con plataformas elevadoras para mudanzas, obras y reformas. Trabajamos con equipos modernos y personal cualificado para garantizar seguridad, eficacia y puntualidad en cada servicio.</p>
-            <p>Nos adaptamos a cada proyecto, asegurando un trabajo rápido, limpio y sin complicaciones.</p>
-            <a class="nosotrosButton" href="nosotros.html">Conocenos</a>
+            <p data-translate="pNosotros">En Altiva ofrecemos soluciones profesionales con plataformas elevadoras para mudanzas, obras y reformas. Trabajamos con equipos modernos y personal cualificado para garantizar seguridad, eficacia y puntualidad en cada servicio.</p>
+            <p data-translate="pNosotros2">Nos adaptamos a cada proyecto, asegurando un trabajo rápido, limpio y sin complicaciones.</p>
+            <a class="nosotrosButton" href="nosotros.html" data-translate="btnNosotrosConocenos">Conocenos</a>
         </div>
     </section>
 
     <!-- ---- CONTACTENOS ---- -->
     <section class="sectionContact" id="sectionContact">
         <div class="convencer">
-            <h2>Tu elección más óptima y económica</h2>
+            <h2 data-translate="h2Contactanos">Tu elección más óptima y económica</h2>
             <hr>
             <ul>
-                <li>Experiencia y profesionalidad en cada servicio</li>
-                <li>Equipos modernos y revisados periódicamente</li>
-                <li>Puntualidad y compromiso con los plazos</li>
-                <li>Presupuestos claros y sin sorpresas</li>
-                <li>Personal cualificado y trato cercano</li>
+                <li data-translate="liContactanos1">Experiencia y profesionalidad en cada servicio</li>
+                <li data-translate="liContactanos2">Equipos modernos y revisados periódicamente</li>
+                <li data-translate="liContactanos3">Puntualidad y compromiso con los plazos</li>
+                <li data-translate="liContactanos4">Presupuestos claros y sin sorpresas</li>
+                <li data-translate="liContactanos5">Personal cualificado y trato cercano</li>
             </ul>
-            <p>Contactanos y te ayudaremos en tus necesidades</p>
+            <p data-translate="pContactanos">Contactanos y te ayudaremos en tus necesidades</p>
         </div>
         <div class="formulario">
-            <h3>Contactanos</h3>
+            <h3 data-translate="h3Contactanos">Contactanos</h3>
             <form id="formulario">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
-                <input type="email" name="email" id="email" placeholder="Email" required>
-                <input type="tel" name="tel" id="tel" placeholder="Telefono" required>
-                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Mensaje" required></textarea>
-                <button type="submit" id="prova">Enviar</button>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" data-placeholder="nombre" required>
+                <input type="email" name="email" id="email" placeholder="Email" data-placeholder="email" required>
+                <input type="tel" name="tel" id="tel" placeholder="Telefono" data-placeholder="tel" required>
+                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Mensaje" data-placeholder="mensaje" required></textarea>
+                <button type="submit" id="prova" data-translate="btnEnviar">Enviar</button>
             </form>
         </div>
     </section>
@@ -142,19 +154,22 @@
                 <img class="imgLogoF" src="img/logoConFondo.png" alt="">
                 <h2>ALTIVA</h2>
             </div>
-            <p>Plataformas elevadoras</p>
-            <p>Servicio profesional y seguro.</p>
+            <p data-translate="pFooter1">Plataformas elevadoras</p>
+            <p data-translate="pFooter2">Servicio profesional y seguro.</p>
         </div>
         <div class="div2">
             <ul>
                 <li>
-                    <a href="index.html">Inicio</a>
+                    <a href="index.html" data-translate="aFooterInicio">Inicio</a>
                 </li>
                 <li>
-                    <a href="nosotros.html">Quienes Somos</a>
+                    <a href="promociones.html" data-translate="aFooterPromociones">Promociones</a>
                 </li>
                 <li>
-                    <a href="contactanos.html">Contactanos</a>
+                    <a href="nosotros.html" data-translate="aFooterNosotros">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="contactanos.html" data-translate="aFooterContactanos">Contactanos</a>
                 </li>
             </ul>
         </div>

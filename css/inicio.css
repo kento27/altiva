@@ -52,15 +52,30 @@ nav p, .menuPC ul{
 
 .menu{
     background-color: #017CA4;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
     width: 100vw;
 }
 
+.logoIdiomas{
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    gap: 10px;
+}
+
 .logoM{
+    justify-self: start;
     font-size: 1.5em;
     color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    text-decoration: none;
 }
 
 .logoM:hover{
@@ -71,13 +86,47 @@ nav p, .menuPC ul{
     width: 60px;
 }
 
+.logoIdiomas{
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    gap: 10px;
+}
+
+.idiomas{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.idiomas img{
+    width: 35px;
+    height: 27px;
+    object-fit: cover;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.idiomas img:hover{
+    transform: scale(1.1);
+}
+
 .botonMenuPeke{
     display: none;
+}
+
+.menuPC{
+    justify-self: center;
 }
 
 .menuPC, .menuCont{
     display: flex;
     align-items: center;
+}
+
+.menuCont{
+    justify-self: end;
 }
 
 .menuPC ul{
@@ -118,19 +167,33 @@ nav p, .menuPC ul{
 
 @media (max-width: 1023px){
 
+    .menu{
+        grid-template-columns: 1fr 1fr;
+    }
+
     .menuPC, .menuCont{
         display: none;
     }
 
     .botonMenuPeke{
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         gap: 30px;
+        justify-self: end;
     }
 
     .botonMenuPeke p{
         color: #f2c200;
+    }
+
+    .idiomas img{
+        width: 30px;
+        height: 24px;
+    }
+
+    .logoM{
+        gap: 8px;
     }
 }
 
@@ -302,15 +365,16 @@ header::before{
 /* ----- NOSOTROS ----- */
 .sectionNosotros{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     background-color: #009FB7;
-    height: 40vh;
     color: #FFFFFF;
+    padding-right: 50px;
+    align-items: center;
 }
 
 .sectionNosotros img{
-    height: auto;
-    width: 30%;
+    width: 35%;
+    max-width: 350px;
     object-fit: cover;
 }
 
@@ -320,15 +384,21 @@ header::before{
     flex-direction: column;
     gap: 10px;
     align-items: flex-start;
-    margin-right: 50px;
+    flex: 1;
+    min-width: 0;
 }
 
 .textNosotros hr{
-    border: 0px;
+    border: none;
     width: 100%;
     height: 5px;
     background-color: #F2C200;
     opacity: 1;
+}
+
+.textNosotros p,
+.textNosotros h2{
+    word-break: break-word;
 }
 
 .nosotrosButton{
@@ -480,10 +550,11 @@ header::before{
 /* ----- FOOTER ----- */
 footer{
     background-color: #2B2F33;
-    padding: 100px 0px;
+    padding: 100px 50px;
     color: #FFFFFF;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: end;
 }
 
 footer h2{
@@ -495,6 +566,7 @@ footer h2{
     flex-direction: column;
     align-items: start;
     text-align: left;
+    justify-self: start;
 }
 
 .footerTitulo{
@@ -512,6 +584,7 @@ footer h2{
     text-align: center;
     display: flex;
     align-items: end;
+    justify-self: center;
 }
 
 .div2 ul{
@@ -539,18 +612,29 @@ footer h2{
     display: flex;
     flex-direction: column;
     justify-content:end;
+    justify-self: end;
 }
 
 @media (max-width: 767px){
+
     footer{
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 50px 25px;
+        text-align: center;
+        gap: 30px;
     }
 
     .div1{
-        margin-bottom: 25px;
+        margin-bottom: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerTitulo{
+        justify-content: center;
     }
 
     .div2{
@@ -558,6 +642,8 @@ footer h2{
     }
 
     .div3{
-        text-align: left;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }

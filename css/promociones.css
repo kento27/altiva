@@ -4,6 +4,10 @@ html, body{
     background-color: #F7F7F7;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'akira';
     src: url('../Fuentes/Akira/titulo.otf');
@@ -231,35 +235,36 @@ header h1{
     }
 }
 
-/* ----- CONTENT ----- */
-.QEA{
-    padding: 100px 25px;
+/* ----- PROMOCIONES ----- */
+.sectionPromocion{
+    padding: 50px 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.textoQEA{
+.general{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 0px 30px;
+}
+
+.promos{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.promo1 img{
+    width: 100%;
     max-width: 800px;
-    width: 100%;
-    line-height: 1.6;
-}
-
-.textoQEA hr{
-    width: 100%;
-    max-width: 500px;
-    height: 5px;
-    background-color: #F2C200;
-    border: none;
-    opacity: 1;
-}
-
-@media (max-width: 767px){
-    .QEA{
-        padding: 100px 25px;
-    }
-    .textoQEA hr{
-        max-width: 100%;
-    }
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* ----- FOOTER ----- */
