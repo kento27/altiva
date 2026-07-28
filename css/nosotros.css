@@ -47,7 +47,8 @@ nav p, .menuPC ul{
 }
 
 .menu{
-    background-color: #017CA4;
+    /* background-color: #017CA4; */
+    background-color: #233DFF;
     padding: 10px 30px;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -79,7 +80,7 @@ nav p, .menuPC ul{
 }
 
 .imgLogoM{
-    width: 60px;
+    width: 90px;
 }
 
 .logoIdiomas{
@@ -191,6 +192,10 @@ nav p, .menuPC ul{
     .logoM{
         gap: 8px;
     }
+
+    .logoM span{
+        display: none;
+    }
 }
 
 /* ----- PORTADA ----- */
@@ -209,12 +214,12 @@ header::before{
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("../img/portada.jpeg");
+    background-image: url("../img/portada1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     filter: blur(4px);
-    transform: scale(1.1) scaleX(-1);
+    transform: scale(1.1) scaleX(1);
 }
 
 header h1{
@@ -328,6 +333,22 @@ footer h2{
     flex-direction: column;
     justify-content:end;
     justify-self: end;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.datos img{
+    width: 30px;
+}
+
+.datos p{
+    margin: 0px;
 }
 
 @media (max-width: 767px){

@@ -40,6 +40,11 @@ p, a, li, button{
     font-size: 1.3em;
 }
 
+.dropD-Opt{
+    font-family: 'Coolvetica';
+    font-size: 1.1em;
+}
+
 /* ----- MENU ----- */
 nav p, .menuPC ul{
     padding: 0px;
@@ -51,7 +56,8 @@ nav p, .menuPC ul{
 }
 
 .menu{
-    background-color: #017CA4;
+    /* background-color: #017CA4; */
+    background-color: #233DFF;
     padding: 10px 30px;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -83,7 +89,7 @@ nav p, .menuPC ul{
 }
 
 .imgLogoM{
-    width: 60px;
+    width: 90px;
 }
 
 .logoIdiomas{
@@ -129,7 +135,7 @@ nav p, .menuPC ul{
     justify-self: end;
 }
 
-.menuPC ul{
+.menuPC > ul{
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -195,6 +201,10 @@ nav p, .menuPC ul{
     .logoM{
         gap: 8px;
     }
+
+    .logoM span{
+        display: none;
+    }
 }
 
 /* ----- PORTADA ----- */
@@ -217,11 +227,11 @@ header::before{
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("../img/portada.jpeg");
+    background-image: url("../img/portada1.jpeg");
     background-repeat: no-repeat;
-    background-position-y: 40%;
+    background-position-y: 60%;
     background-size: cover;
-    transform: scaleX(-1); /* invierte solo la imagen */
+    transform: scaleX(1); /* invierte solo la imagen */
 }
 
 .recuadro{
@@ -233,6 +243,7 @@ header::before{
     color: #ffffff;
     background-color: rgb(0, 159, 183, 0.2);
     backdrop-filter: blur(2px);
+    padding: 50px;
 }
 
 .portadaContact{
@@ -257,6 +268,11 @@ header::before{
 
     .recuadro{
         width: 500px;
+        padding: 30px;
+    }
+
+    h1{
+        font-size: 3em;
     }
 }
 
@@ -267,6 +283,9 @@ header::before{
     .recuadro{
         width: 100%;
         padding: 0px 20px;
+    }
+    h1{
+        font-size: 2.5em;
     }
 }
 
@@ -308,6 +327,9 @@ header::before{
 .servicio{
     width: 200px;
     height: 200px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -396,6 +418,31 @@ header::before{
     opacity: 1;
 }
 
+.ventajas{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin: 15px 0 20px;
+}
+
+.columnaVentajas{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.ventaja h3{
+    margin: 0 0 8px;
+    font-size: 1.15rem;
+    color: #F2C200;
+}
+
+.ventaja p{
+    margin: 0;
+    line-height: 1.6;
+}
+
 .textNosotros p,
 .textNosotros h2{
     word-break: break-word;
@@ -450,6 +497,15 @@ header::before{
         margin: 50px 25px;
         width: 100%;
     }
+
+    .ventajas{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .columnaVentajas{
+        gap: 20px;
+    }
 }
 
 /* ----- CONTACTO ----- */
@@ -494,7 +550,7 @@ header::before{
     gap: 30px;
     text-align: center;
     width: 400px;
-    background-color: #D9D9D9;
+    /* background-color: #D9D9D9; */
 }
 
 .formulario form{
@@ -613,6 +669,22 @@ footer h2{
     flex-direction: column;
     justify-content:end;
     justify-self: end;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.datos img{
+    width: 30px;
+}
+
+.datos p{
+    margin: 0px;
 }
 
 @media (max-width: 767px){

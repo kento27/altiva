@@ -165,26 +165,43 @@ const traducciones = {
     es: {
         // Navbar
         inicio: "Inicio",
+        serviciosM: "Nuestros servicios",
+        menuGaleria: "Galería",
+        menuGaleriaMudanza: "Mudanza",
+        menuGaleriaCarpinteria: "Carpintería",
+        menuGaleriaVidreria: "Vidrería",
+        menuGaleriaReforma: "Reformas",
         promociones: "Promociones",
         nosotros: "Quienes Somos",
-        contactanos: "Contactanos",
+        contactanos: "Solicitar servicio",
 
         // Portada
-        pPortada: "Seguridad, rapidez y servicio profesional en cada trabajo.",
-        btnPortadaContactanos: "Contactanos",
+        tituloPortada: "Alquiler de plataformas elevadoras",
+        pPortada: "Necesitas elevar material de manera rápida y segura.<br>En Altiva lo hacemos posible.<br>Solicita tu presupuesto sin compromiso.",
+        btnPortadaContactanos: "Solicitar servicio",
 
         // Servicios
-        h2Servicios: "Servicios",
-        pServicios: "Te ofrecemos la mejor atencion al cliente y servicio.<br>Nos adaptamos a tu comodidad.",
+        h2Servicios: "Nuestros servicios",
+        pServicios: "Trabajamos mano a mano con ...",
         pMudanzas: "Mudanzas",
-        pObras: "Obras y Reformas",
-        pSeguridad: "Seguridad",
-        pFlexibilidad: "Flexibilidad",
+        pObras: "Carpintería",
+        pSeguridad: "Vidriería",
+        pFlexibilidad: "Reformas",
 
         // Sobre nosotros
         h2Nosotros: "¿Porque Altiva?",
-        pNosotros: "En Altiva ofrecemos soluciones profesionales con plataformas elevadoras para mudanzas, obras y reformas. Trabajamos con equipos modernos y personal cualificado para garantizar seguridad, eficacia y puntualidad en cada servicio.",
-        pNosotros2: "Nos adaptamos a cada proyecto, asegurando un trabajo rápido, limpio y sin complicaciones.",
+        h3Nosotros1: "Seguridad ante todo",
+        pNosotros1: "Trabajamos bajo los más altos estándares, garantizando maniobras seguras incluso en situaciones exigentes.",
+        h3Nosotros2: "operario especializado",
+        pNosotros2: "Nos encargamos de todo el proceso, para que no tengas que preocuparte por nada.",
+        h3Nosotros3: "Adaptados a cada servicio",
+        pNosotros3: "Cada trabajo es diferente. Analizamos cada caso y ofrecemos la mejor solución.",
+        h3Nosotros4: "Trabajos en situaciones complejas",
+        pNosotros4: "Afrontamos servicios exigentes en espacios reducidos o de difícil acceso, con soluciones eficaces y seguras.",
+        h3Nosotros5: "Rapidez y disponibilidad",
+        pNosotros5: "Nos adaptamos a tus tiempos con un servicio ágil y eficiente.",
+        h3Nosotros6: "Para particulares y empresas",
+        pNosotros6: "Trabajamos tanto para clientes particulares como para profesionales del sector.",
         btnNosotrosConocenos: "Conocenos",
 
         // Contactanos
@@ -194,8 +211,8 @@ const traducciones = {
         liContactanos3: "Puntualidad y compromiso con los plazos",
         liContactanos4: "Presupuestos claros y sin sorpresas",
         liContactanos5: "Personal cualificado y trato cercano",
-        pContactanos: "Contactanos y te ayudaremos en tus necesidades",
-        h3Contactanos: "Contactanos",
+        pContactanos: "Cuéntanos qué necesitas y te ayudaremos en tus necesidades",
+        h3Contactanos: "Cuéntanos qué necesitas",
         nombre: "Nombre",
         email: "Email",
         tel: "Teléfono",
@@ -209,6 +226,14 @@ const traducciones = {
         aFooterPromociones: "Promociones",
         aFooterNosotros: "Quienes Somos",
         aFooterContactanos: "Contactanos",
+
+        // -- Galeria --
+        portadaGaleriaMudanza: "Galeria Mudanzas",
+        portadaGaleriaReforma: "Galeria Reformas",
+        portadaGaleriaVidreria: "Galeria Vidrieria",
+        portadaGaleriaCarpinteria: "Galeria Carpinteria",
+        trabajos: "Nuestros trabajos",
+        pGaleria: "Descubre algunos de los trabajos realizados por ALTIVA Plataformas Elevadoras.",
 
         // -- Promociones --
         portadaPromo: "Promociones",
@@ -233,26 +258,43 @@ const traducciones = {
     ca: {
         // Navbar
         inicio: "Inici",
+        serviciosM: "Serveis",
+        menuGaleria: "Galeria",
+        menuGaleriaMudanza: "Mudança",
+        menuGaleriaCarpinteria: "Fusteria",
+        menuGaleriaVidreria: "Vidrieria",
+        menuGaleriaReforma: "Reformes",
         promociones: "Promocions",
         nosotros: "Qui som",
-        contactanos: "Contacta'ns",
+        contactanos: "Solicitar servei",
 
         // Portada
-        pPortada: "Seguretat, rapidesa i servei professional en cada treball.",
-        btnPortadaContactanos: "Contacta'ns",
+        tituloPortada: "Lloguer de plataformes elevadores",
+        pPortada: "Necessites elevar material de manera ràpida i segura.<br>A Altiva ho fem possible.<br>Sol·licita el teu pressupost sense compromís.",
+        btnPortadaContactanos: "Sol·licitar servei",
 
         // Servicios
-        h2Servicios: "Serveis",
-        pServicios: "T'oferim la millor atenció al client i servei.<br>Ens adaptem a la teva comoditat.",
+        h2Servicios: "Els nostres serveis",
+        pServicios: "Treballem colze a colze amb ...",
         pMudanzas: "Mudances",
-        pObras: "Obres i reformes",
-        pSeguridad: "Seguretat",
-        pFlexibilidad: "Flexibilitat",
+        pObras: "Fusteria",
+        pSeguridad: "Vidrieria",
+        pFlexibilidad: "Reformes",
 
         // Sobre nosotros
         h2Nosotros: "Per què Altiva?",
-        pNosotros: "A Altiva oferim solucions professionals amb plataformes elevadores per a mudances, obres i reformes. Treballem amb equips moderns i personal qualificat per garantir seguretat, eficàcia i puntualitat en cada servei.",
-        pNosotros2: "Ens adaptem a cada projecte, assegurant un treball ràpid, net i sense complicacions.",
+        h3Nosotros1: "Seguretat per damunt de tot",
+        pNosotros1: "Treballem sota els més alts estàndards, garantint maniobres segures fins i tot en situacions exigents.",
+        h3Nosotros2: "Operari especialitzat",
+        pNosotros2: "Ens encarreguem de tot el procés perquè no t'hagis de preocupar de res.",
+        h3Nosotros3: "Adaptats a cada servei",
+        pNosotros3: "Cada treball és diferent. Analitzem cada cas i oferim la millor solució.",
+        h3Nosotros4: "Treballs en situacions complexes",
+        pNosotros4: "Afrontem serveis exigents en espais reduïts o de difícil accés, amb solucions eficaces i segures.",
+        h3Nosotros5: "Rapidesa i disponibilitat",
+        pNosotros5: "Ens adaptem als teus terminis amb un servei àgil i eficient.",
+        h3Nosotros6: "Per a particulars i empreses",
+        pNosotros6: "Treballem tant per a clients particulars com per a professionals del sector.",
         btnNosotrosConocenos: "Coneix-nos",
 
         // Contactanos
@@ -262,8 +304,8 @@ const traducciones = {
         liContactanos3: "Puntualitat i compromís amb els terminis",
         liContactanos4: "Pressupostos clars i sense sorpreses",
         liContactanos5: "Personal qualificat i tracte proper",
-        pContactanos: "Contacta'ns i t'ajudarem en les teves necessitats",
-        h3Contactanos: "Contacta'ns",
+        pContactanos: "Explica'ns què necessites i t'ajudarem",
+        h3Contactanos: "Explica'ns què necessites",
         nombre: "Nom",
         email: "Email",
         tel: "Telèfon",
@@ -277,6 +319,14 @@ const traducciones = {
         aFooterPromociones: "Promocions",
         aFooterNosotros: "Qui som",
         aFooterContactanos: "Contacta'ns",
+
+        // -- Galeria --
+        portadaGaleriaMudanza: "Galeria Mudances",
+        portadaGaleriaReforma: "Galeria Reformes",
+        portadaGaleriaVidreria: "Galeria Vidrieria",
+        portadaGaleriaCarpinteria: "Galeria Fusteria",
+        trabajos: "Els nostres treballs",
+        pGaleria: "Descobreix alguns dels treballs realitzats per ALTIVA Plataformes Elevadores.",
 
         // -- Promociones --
         portadaPromo: "Promocions",
@@ -301,26 +351,43 @@ const traducciones = {
     en: {
         // Navbar
         inicio: "Home",
+        serviciosM: "Our services",
+        menuGaleria: "Gallery",
+        menuGaleriaMudanza: "Moving",
+        menuGaleriaCarpinteria: "Carpentry",
+        menuGaleriaVidreria: "Glazing",
+        menuGaleriaReforma: "Renovations",
         promociones: "Promotions",
         nosotros: "About us",
-        contactanos: "Contact us",
+        contactanos: "Request service",
 
         // Portada
-        pPortada: "Safety, speed and professional service in every job.",
-        btnPortadaContactanos: "Contact us",
+        tituloPortada: "Lifting Platform Rental",
+        pPortada: "Need to lift materials quickly and safely?<br>At Altiva we make it possible.<br>Request your free quote with no obligation.",
+        btnPortadaContactanos: "Request service",
 
         // Servicios
-        h2Servicios: "Services",
-        pServicios: "We offer the best customer service.<br>We adapt to your comfort.",
+        h2Servicios: "Our services",
+        pServicios: "We work hand in hand with ...",
         pMudanzas: "Moving",
-        pObras: "Construction and renovations",
-        pSeguridad: "Safety",
-        pFlexibilidad: "Flexibility",
+        pObras: "Carpentry",
+        pSeguridad: "Glazing",
+        pFlexibilidad: "Renovations",
 
         // Sobre nosotros
         h2Nosotros: "Why Altiva?",
-        pNosotros: "At Altiva we offer professional solutions with lifting platforms for moving, construction and renovations. We work with modern equipment and qualified staff to ensure safety, efficiency and punctuality in every service.",
-        pNosotros2: "We adapt to each project, ensuring fast, clean and hassle-free work.",
+        h3Nosotros1: "Safety First",
+        pNosotros1: "We work to the highest standards, ensuring safe operations even in the most demanding situations.",
+        h3Nosotros2: "Specialized Operator",
+        pNosotros2: "We take care of the entire process, so you don't have to worry about anything.",
+        h3Nosotros3: "Tailored to Every Service",
+        pNosotros3: "Every project is different. We assess each case and provide the best solution.",
+        h3Nosotros4: "Complex Projects",
+        pNosotros4: "We handle demanding jobs in confined or difficult-to-access spaces with safe and effective solutions.",
+        h3Nosotros5: "Fast and Reliable Service",
+        pNosotros5: "We adapt to your schedule with a fast and efficient service.",
+        h3Nosotros6: "For Individuals and Businesses",
+        pNosotros6: "We work with both private customers and industry professionals.",
         btnNosotrosConocenos: "Learn more",
 
         // Contactanos
@@ -330,8 +397,8 @@ const traducciones = {
         liContactanos3: "Punctuality and commitment to deadlines",
         liContactanos4: "Clear pricing with no surprises",
         liContactanos5: "Qualified staff and close customer service",
-        pContactanos: "Contact us and we will help you with your needs",
-        h3Contactanos: "Contact us",
+        pContactanos: "Tell us what you need and we will help you",
+        h3Contactanos: "Tell us what you need",
         nombre: "Name",
         email: "Email",
         tel: "Telephone",
@@ -345,6 +412,14 @@ const traducciones = {
         aFooterPromociones: "Promotions",
         aFooterNosotros: "About us",
         aFooterContactanos: "Contact us",
+
+        // -- Galeria --
+        portadaGaleriaMudanza: "Moving Gallery",
+        portadaGaleriaReforma: "Renovation Gallery",
+        portadaGaleriaVidreria: "Glazing Gallery",
+        portadaGaleriaCarpinteria: "Carpentry Gallery",
+        trabajos: "Our Projects",
+        pGaleria: "Discover some of the projects completed by ALTIVA Lifting Platforms.",
 
         // -- Promociones --
         portadaPromo: "Promotions",
@@ -365,6 +440,99 @@ const traducciones = {
         
         // -- Contactanos --
         portadaContact: "Contact us"
+    },
+    fr: {
+        // Navbar
+        inicio: "Accueil",
+        serviciosM: "Nos services",
+        menuGaleria: "Galerie",
+        menuGaleriaMudanza: "Déménagement",
+        menuGaleriaCarpinteria: "Menuiserie",
+        menuGaleriaVidreria: "Vitrerie",
+        menuGaleriaReforma: "Rénovations",
+        promociones: "Promotions",
+        nosotros: "Qui sommes-nous",
+        contactanos: "Demander un service",
+            
+        // Portada
+        tituloPortada: "Location de plateformes elevatrices",
+        pPortada: "Vous devez élever du matériel rapidement et en toute sécurité ?<br>Chez Altiva, nous le rendons possible.<br>Demandez votre devis sans engagement.",
+        btnPortadaContactanos: "Demander un service",
+            
+        // Servicios
+        h2Servicios: "Nos services",
+        pServicios: "Nous travaillons main dans la main avec ...",
+        pMudanzas: "Déménagements",
+        pObras: "Menuiserie",
+        pSeguridad: "Vitrerie",
+        pFlexibilidad: "Rénovations",
+            
+        // Sobre nosotros
+        h2Nosotros: "Pourquoi Altiva ?",
+        h3Nosotros1: "La sécurité avant tout",
+        pNosotros1: "Nous travaillons selon les normes les plus élevées afin de garantir des interventions sûres, même dans les situations les plus exigeantes.",
+        h3Nosotros2: "Opérateur spécialisé",
+        pNosotros2: "Nous nous occupons de l'ensemble du processus afin que vous n'ayez à vous soucier de rien.",
+        h3Nosotros3: "Adaptés à chaque service",
+        pNosotros3: "Chaque intervention est différente. Nous analysons chaque situation afin de proposer la meilleure solution.",
+        h3Nosotros4: "Travaux dans des situations complexes",
+        pNosotros4: "Nous réalisons des interventions exigeantes dans des espaces restreints ou difficiles d'accès, avec des solutions sûres et efficaces.",
+        h3Nosotros5: "Rapidité et disponibilité",
+        pNosotros5: "Nous nous adaptons à vos délais grâce à un service rapide et efficace.",
+        h3Nosotros6: "Pour les particuliers et les entreprises",
+        pNosotros6: "Nous travaillons aussi bien pour les particuliers que pour les professionnels du secteur.",
+        btnNosotrosConocenos: "Découvrez-nous",
+            
+        // Contactanos
+        h2Contactanos: "Le choix le plus avantageux et le plus économique",
+        liContactanos1: "Expérience et professionnalisme à chaque intervention",
+        liContactanos2: "Équipements modernes et contrôlés régulièrement",
+        liContactanos3: "Ponctualité et respect des délais",
+        liContactanos4: "Des devis clairs et sans mauvaises surprises",
+        liContactanos5: "Personnel qualifié et service de proximité",
+        pContactanos: "Expliquez-nous vos besoins et nous vous aiderons à trouver la meilleure solution.",
+        h3Contactanos: "Parlez-nous de votre projet",
+        nombre: "Nom",
+        email: "E-mail",
+        tel: "Téléphone",
+        mensaje: "Message",
+        btnEnviar: "Envoyer",
+            
+        // Footer
+        pFooter1: "Plateformes élévatrices",
+        pFooter2: "Service professionnel et sécurisé.",
+        aFooterInicio: "Accueil",
+        aFooterPromociones: "Promotions",
+        aFooterNosotros: "Qui sommes-nous",
+        aFooterContactanos: "Contactez-nous",
+            
+        // -- Galeria --
+        portadaGaleriaMudanza: "Galerie Demenagements",
+        portadaGaleriaReforma: "Galerie Renovations",
+        portadaGaleriaVidreria: "Galerie Vitrerie",
+        portadaGaleriaCarpinteria: "Galerie Menuiserie",
+        trabajos: "Nos réalisations",
+        pGaleria: "Découvrez quelques-uns des travaux réalisés par ALTIVA Plateformes Élévatrices.",
+            
+        // -- Promociones --
+        portadaPromo: "Promotions",
+            
+        // Promo1
+        h2Promo1: "Promotion de lancement",
+        pPromo1: "Notre entreprise de plateformes élévatrices débute cette nouvelle étape avec l'ambition d'offrir un service professionnel, rapide et entièrement adapté aux besoins réels de nos clients. C'est pourquoi nous souhaitons remercier toutes les personnes, entreprises et professionnels qui nous feront confiance dès le premier jour grâce à une offre de lancement spécialement conçue pour récompenser votre fidélité. Nous savons que lorsque vous avez besoin d'une plateforme élévatrice, vous recherchez bien plus qu'une simple machine : vous recherchez la sécurité, la ponctualité, un accompagnement professionnel, des équipements en parfait état et une entreprise capable de répondre présente lorsque vous en avez réellement besoin. Notre objectif est de devenir votre partenaire de confiance pour les travaux en hauteur, la maintenance, la construction, les installations, les rénovations, le nettoyage, les événements, la logistique et tout type de projet nécessitant des solutions de levage efficaces et sécurisées.",
+            
+        // -- Sobre nosotros --
+        // Sobre nosotros
+        portadaNosotros: "À propos de nous",
+            
+        // Content
+        queEsNosotros: "Qu'est-ce qu'Altiva ?",
+        pNosotros: "Altiva est une entreprise spécialisée dans la location et l'utilisation de plateformes élévatrices, principalement destinées au secteur du déménagement et à d'autres activités nécessitant le levage sécurisé de matériaux. Son activité consiste à proposer des solutions efficaces pour le déplacement de meubles et d'objets volumineux, en particulier dans les environnements urbains où l'accès peut être difficile.",
+        pNosotros2: "L'entreprise dispose d'équipements modernes adaptés à différentes hauteurs et à divers besoins, permettant de réaliser les travaux rapidement, en toute sécurité et sans risques inutiles pour les opérateurs ou les biens transportés. Grâce à ses plateformes élévatrices, Altiva facilite les déménagements dans les immeubles de grande hauteur en évitant l'utilisation des escaliers ou des ascenseurs traditionnels.",
+        pNosotros3: "En outre, Altiva ne travaille pas uniquement dans le domaine du déménagement, mais intervient également dans d'autres secteurs nécessitant le levage de charges, tels que les chantiers, les rénovations ou les installations. Son engagement en faveur de la sécurité, de l'efficacité et de la qualité du service en fait un partenaire fiable aussi bien pour les particuliers que pour les professionnels.",
+            
+        // -- Contactanos --
+        portadaContact: "Contactez-nous"
     }
 };
 

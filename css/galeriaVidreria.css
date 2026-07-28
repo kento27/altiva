@@ -236,208 +236,124 @@ header h1{
     }
 }
 
-/* ----- CONTACTO ----- */
-.sectionContact{
-    padding: 100px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+/* ----- GALERÍA ----- */
+.galeria{
+    padding: 100px 40px;
+    max-width: 1500px;
+    margin: auto;
 }
 
-.convencer hr{
-    background-color: #009FB7;
-    opacity: 1;
+.tituloGaleria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.tituloGaleria h2{
+    margin: 0;
+}
+
+.tituloGaleria hr{
+    width: 250px;
     height: 5px;
     border: none;
-}
-
-.convencer ul{
-    list-style: none;
-    padding: 0;
-}
-
-.convencer li{
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 10px;
-}
-
-.convencer li::before{
-    content: "✔";
-    position: absolute;
-    left: 0;
-    color: #28a745;
-    font-weight: bold;
-}
-
-.formulario{
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    text-align: center;
-    width: 400px;
-    background-color: #D9D9D9;
-}
-
-.formulario form{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    text-align: center;
-    align-items: flex-start;
-}
-
-.formulario form input{
-    height: 50px;
-    width: 100%;
-}
-
-.formulario form textarea{
-    width: 100%;
-}
-
-button{
     background-color: #F2C200;
-    border: none;
-    padding: 11px 15px;
+    opacity: 1;
 }
 
-@media (max-width: 1023px){
-    .sectionContact{
+.tituloGaleria p{
+    margin: 0;
+    color: #666;
+}
+
+.gridGaleria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 25px;
+}
+
+.foto{
+    overflow: hidden;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.foto2 img{
+    object-position: center top;
+}
+
+.foto3{
+    grid-row: span 2;
+}
+
+.foto3 img{
+    height: 100%;
+    min-height: 625px;
+}
+
+.foto img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: transform .35s ease;
+}
+
+.foto:hover{
+    box-shadow: 0 14px 35px rgba(0,0,0,.15);
+}
+
+.foto:hover img{
+    transform: scale(1.04);
+}
+
+@media(max-width: 767px){
+
+    .galeria{
+        padding: 60px 15px;
+    }
+
+    .tituloGaleria{
+        margin-bottom: 40px;
+        gap: 12px;
+    }
+
+    .tituloGaleria h2{
+        font-size: 28px;
+    }
+
+    .tituloGaleria hr{
+        width: 180px;
+        height: 4px;
+    }
+
+    .tituloGaleria p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .gridGaleria{
+        grid-template-columns: 1fr;
         gap: 20px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-}
-
-@media (max-width: 767px){
-    .sectionContact{
-        gap: 100px;
-        flex-direction: column;
     }
 
-    .formulario{
-        width: 100%;
-        max-width: 400px;
+    .foto3{
+        grid-row: span 1;
     }
-}
 
-/* ----- FECHA RESERVA ----- */
-:root {
-    --primary-color: #f90a39;
-    --text-color: #1d1d1d;
-    --bg-color: #f1f1fb;
-}
+    .foto3 img{
+        min-height: 250px;
+        height: 250px;
+    }
 
-.container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .foto img{
+        height: 250px;
+    }
 
-.calendario{
-    width: 100%;
-    max-width: 600px;
-    padding: 30px 20px;
-    border-radius: 10px;
-    background-color: var(--bg-color);
-}
-
-    /* ----- HEADER CALENDARIO ----- */
-
-.calendario .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #ccc;
-}
-
-.calendario .header .mes{
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    font-weight: 600;
-    color: var(--text-color);
-}
-
-.calendario .header .botones{
-    display: flex;
-    gap: 10px;
-}
-
-.calendario .header .botones .boton{
-    width: 50px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    color: #fff;
-    background-color: var(--primary-color);
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.calendario .header .botones .boton:hover{
-    background-color: #db0933;
-    transform: scale(1.05);
-}
-
-    /* ----- CUERPO CALENDARIO ----- */
-
-.semana{
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
-.semana .dia{
-    width: calc(100% / 7 - 10px);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.dias{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.dias .dia{
-    width: calc(100% / 7 - 10px);
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--text-color);
-    background-color: #fff;
-    transition: all 0.3s;
-}
-
-.dias .dia:not(.siguiente):not(.anterior):hover {
-    color: #fff;
-    background-color: var(--primary-color);
-    transform: scale(1.0s);
-}
-
-.dias .dia.hoy {
-    color: #fff;
-    background-color: var(--primary-color);
-}
-
-.dias .dia.siguiente, .dias .dia.anterior{
-    color: #ccc;
-     
 }
 
 /* ----- FOOTER ----- */
