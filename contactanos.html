@@ -33,6 +33,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#servicios" data-translate="serviciosM">⁠Nuestros servicios</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-translate="menuGaleria" data-bs-toggle="dropdown" aria-expanded="false">
+                            Galería
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item dropD-Opt" data-translate="menuGaleriaMudanza" href="galeriaMudanza.html">Mudanza</a></li>
+                            <li><a class="dropdown-item dropD-Opt" data-translate="menuGaleriaCarpinteria" href="galeriaCarpinteria.html">Carpintería</a></li>
+                            <li><a class="dropdown-item dropD-Opt" data-translate="menuGaleriaVidreria" href="galeriaVidreria.html">Vidrería</a></li>
+                            <li><a class="dropdown-item dropD-Opt" data-translate="menuGaleriaReforma" href="galeriaReforma.html">Reformas</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="promociones.html" data-translate="promociones">Promociones</a>
                     </li>
@@ -77,6 +88,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#servicios" data-translate="serviciosM">⁠Nuestros servicios</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-translate="menuGaleria" data-bs-toggle="dropdown" aria-expanded="false">
+                                Galería
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item dropD-Opt" data-translate="menuGaleriaMudanza" href="galeriaMudanza.html">Mudanza</a></li>
+                                <li><a class="dropdown-item dropD-Opt" data-translate="menuGaleriaCarpinteria" href="galeriaCarpinteria.html">Carpintería</a></li>
+                                <li><a class="dropdown-item dropD-Opt" data-translate="menuGaleriaVidreria" href="galeriaVidreria.html">Vidrería</a></li>
+                                <li><a class="dropdown-item dropD-Opt" data-translate="menuGaleriaReforma" href="galeriaReforma.html">Reformas</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="promociones.html" data-translate="promociones">Promociones</a>
                         </li>
@@ -95,31 +117,32 @@
 
     <!-- ---- PORTADA ---- -->
     <header>
-        <h1>CONTACTO</h1>
+        <h1 data-translate="portadaContact">CONTACTO</h1>
     </header>
     
     <!-- ---- CONTACTENOS ---- -->
-    <section class="sectionContact">
+    <section class="sectionContact" id="sectionContact">
         <div class="convencer">
-            <h2>Tu elección más óptima y económica</h2>
+            <h2 data-translate="h2Contactanos">Tu elección más óptima y económica</h2>
             <hr>
             <ul>
-                <li>Experiencia y profesionalidad en cada servicio</li>
-                <li>Equipos modernos y revisados periódicamente</li>
-                <li>Puntualidad y compromiso con los plazos</li>
-                <li>Presupuestos claros y sin sorpresas</li>
-                <li>Personal cualificado y trato cercano</li>
+                <li data-translate="liContactanos1">Experiencia y profesionalidad en cada servicio</li>
+                <li data-translate="liContactanos2">Equipos modernos y revisados periódicamente</li>
+                <li data-translate="liContactanos3">Puntualidad y compromiso con los plazos</li>
+                <li data-translate="liContactanos4">Presupuestos claros y sin sorpresas</li>
+                <li data-translate="liContactanos5">Personal cualificado y trato cercano</li>
             </ul>
-            <p>Contactanos y te ayudaremos en tus necesidades</p>
+            <p data-translate="pContactanos">Cuéntanos qué necesitas y te ayudaremos en tus necesidades</p>
         </div>
         <div class="formulario">
-            <h3>Contactanos</h3>
+            <h3 data-translate="h3Contactanos">Contactanos</h3>
             <form id="formulario">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                <input type="email" name="email" id="email" placeholder="Email">
-                <input type="tel" name="tel" id="tel" placeholder="Telefono">
-                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Mensaje"></textarea>
-                <button type="submit" id="prova">Enviar</button>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" data-placeholder="nombre" required>
+                <input type="email" name="email" id="email" placeholder="Email" data-placeholder="email" required>
+                <input type="tel" name="tel" id="tel" placeholder="Telefono" data-placeholder="tel" required>
+                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Mensaje" data-placeholder="mensaje"
+                    required></textarea>
+                <button type="submit" id="prova" data-translate="btnEnviar">Enviar</button>
             </form>
         </div>
     </section>

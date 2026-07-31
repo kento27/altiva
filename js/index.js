@@ -253,7 +253,7 @@ const traducciones = {
         pNosotros3: "Además, Altiva no solo trabaja en el ámbito de las mudanzas, sino que también presta servicios en otros sectores donde se requiere elevación de carga, como obras, reformas o instalaciones. Su compromiso con la seguridad, la eficiencia y la calidad del servicio la convierte en una opción fiable para particulares y profesionales.",
 
         // -- Contactanos --
-        portadaContact: "Contactanos"
+        portadaContact: "Contacto"
     },
     ca: {
         // Navbar
@@ -346,7 +346,7 @@ const traducciones = {
         pNosotros3: "A més, Altiva no només treballa en l'àmbit de les mudances, sinó que també presta serveis en altres sectors on es requereix elevació de càrrega, com obres, reformes o instal·lacions. El seu compromís amb la seguretat, l'eficiència i la qualitat del servei la converteix en una opció fiable tant per a particulars com per a professionals.",
         
         // -- Contactanos --
-        portadaContact: "Contacta'ns"
+        portadaContact: "Contacte"
     },
     en: {
         // Navbar
@@ -439,7 +439,7 @@ const traducciones = {
         pNosotros3: "In addition, Altiva not only works in the moving sector, but also provides services in other industries where load lifting is required, such as construction, renovations, or installations. Its commitment to safety, efficiency, and service quality makes it a reliable option for both private individuals and professionals.",
         
         // -- Contactanos --
-        portadaContact: "Contact us"
+        portadaContact: "Contact"
     },
     fr: {
         // Navbar
@@ -523,7 +523,7 @@ const traducciones = {
             
         // -- Sobre nosotros --
         // Sobre nosotros
-        portadaNosotros: "À propos de nous",
+        portadaNosotros: "A propos de nous",
             
         // Content
         queEsNosotros: "Qu'est-ce qu'Altiva ?",
@@ -532,7 +532,7 @@ const traducciones = {
         pNosotros3: "En outre, Altiva ne travaille pas uniquement dans le domaine du déménagement, mais intervient également dans d'autres secteurs nécessitant le levage de charges, tels que les chantiers, les rénovations ou les installations. Son engagement en faveur de la sécurité, de l'efficacité et de la qualité du service en fait un partenaire fiable aussi bien pour les particuliers que pour les professionnels.",
             
         // -- Contactanos --
-        portadaContact: "Contactez-nous"
+        portadaContact: "Contact"
     }
 };
 

@@ -4,6 +4,10 @@ html, body{
     background-color: #F7F7F7;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'akira';
     src: url('../Fuentes/Akira/titulo.otf');
@@ -34,6 +38,11 @@ p, a, input, textarea, button, ul{
 
 p, a, li, button{
     font-size: 1.3em;
+}
+
+.dropD-Opt{
+    font-family: 'Coolvetica';
+    font-size: 1.1em;
 }
 
 /* ----- MENU ----- */
@@ -126,7 +135,7 @@ nav p, .menuPC ul{
     justify-self: end;
 }
 
-.menuPC ul{
+.menuPC > ul{
     display: flex;
     text-decoration: none;
     list-style: none;
