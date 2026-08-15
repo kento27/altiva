@@ -532,6 +532,12 @@ footer h2{
     margin-bottom: 16px;
 }
 
+.dato4{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
 .datos img{
     width: 30px;
 }
