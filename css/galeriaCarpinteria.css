@@ -361,6 +361,32 @@ header h1{
 
 }
 
+/* ----- Whattsapp btn ----- */
+.whatsappFlotante{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.whatsappFlotante img{
+    width: 35px;
+    height: 35px;
+}
+
+.whatsappFlotante:hover{
+    transform: scale(1.08);
+}
+
 /* ----- FOOTER ----- */
 footer{
     background-color: #2B2F33;
